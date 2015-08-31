@@ -15,8 +15,9 @@
   	<script src="phonegap.js"></script>
 	<script>
 		document.addEventListener('deviceready', function () {  
-				cordova.plugins.backgroundMode.disable();
+				 navigator.splashscreen.hide();
 		}, false);
+		document.addEventListener("offline", function(){ alert("You're not conncted to internet, please try after some time!") }, false);
 	</script>
 
   </body>

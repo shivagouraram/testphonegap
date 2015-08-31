@@ -25,6 +25,8 @@
     <gap:plugin name="com.simplec.plugins.localnotification" />
     
 
+	<preference name="autohide-splashscreen" value="true" />
+	
 	<icon src="icon.png" />
 	<!--
     <icon src="res/icons/ios/Icon.png" gap:platform="ios" width="57" height="57" />
